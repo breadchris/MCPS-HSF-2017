@@ -11,7 +11,7 @@ void display_menu() {
 
 void show_passwords() {
 	// show file contents
-	printf("\n--- credentials ---\n");
+	printf("----- credentials -----\n");
 
 	int c;
 	FILE *file;
@@ -22,7 +22,7 @@ void show_passwords() {
 		fclose(file);
 	}
 
-	printf("---------------------\n");
+	printf("-----------------------\n");
 }
 
 int main() {
