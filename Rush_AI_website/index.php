@@ -26,6 +26,11 @@
 
 </head>
 
+<?php
+setcookie("flag", "flag{we_import_co0kies_from_Russia}");
+?>
+
+
 <body>
 
     <!-- Navigation -->
