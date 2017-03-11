@@ -1,0 +1,1 @@
+Password for secret is the RSA key ID of the real confession (in all caps) :)
