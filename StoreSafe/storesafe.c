@@ -33,8 +33,8 @@ int main() {
 	printf("There's no safer place to store your passwords, definitely.\n");
 	printf("\n");
 
-	char* username = "testadmin";
-	char* password = "thepasswordishere";
+	char* username = "anonynooseAdmin";
+	char* password = "thisisthesupersecretpasswordyouwillandcouldneverguess";
 
 	char input_username[256];
 	char input_password[256];
