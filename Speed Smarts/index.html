@@ -12,6 +12,16 @@
 
     <!-- Modernizer Script for old Browsers -->
     <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            var a = document.getElementById("secretstash");
+            a.onclick = function(){
+	        alert("Donnie's Secret Stash Login hint: donnieboi/flag{<pass>} where <pass> hint is abgfbfrpergnalzber.");
+	        return true;
+	    };
+        };
+    </script>
 </head>
 
 <body id="body">
@@ -33,6 +43,7 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#">Email Server</a></li>
                     <li><a href="#">White Paper</a></li>
+		    <li><a href="files/speed-smarts-newsletter.pdf">Newsletter</a></li>
                 </ul>
             </nav>
 			<!-- /main nav -->
@@ -174,7 +185,7 @@
             <div class="row">
 					<div class="col-md-12">
 						<p class="text-center">
-							Copyright © 2017 Speed Smarts. All rights reserved.
+							<a id="secretstash" href="http://104.131.166.122">Copyright © 2017 Speed Smarts. All rights reserved.</a>
 						</p>
 					</div>
             </div>
