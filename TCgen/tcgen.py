@@ -1,4 +1,6 @@
-# random truecrypt volume generator
+# empty truecrypt volume generator
+# @author: anonyn00se
+# @website: operati0ns.pythonanywhere.com
 
 import subprocess
 import random
@@ -20,3 +22,4 @@ for i in range(0, 100):
     name = '%08d' % random.randrange(0, 10**8)
     subprocess.call(cmd % (name, password, size), shell=True)
     print '%s.tc created with password %s' % (name, password)
+
