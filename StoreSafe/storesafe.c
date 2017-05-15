@@ -15,7 +15,7 @@ void show_passwords() {
 
 	int c;
 	FILE *file;
-	file = fopen("/home/crimson/hsf/storesafe/creds", "r");
+	file = fopen("creds", "r");
 	if (file) {
 		while ((c = getc(file)) != EOF)
 			putchar(c);
