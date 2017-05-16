@@ -12,12 +12,12 @@ def process(i, j):
 	DATA[i] = chr(ord(DATA[i]) ^ j)
 
 if len(sys.argv) < 3:
-	print 'Usage: python scramble.py [file] [key]'
+	print 'Usage: python scramble.py [file] [keyfile]'
 	quit()
 
 filename = '.'.join(sys.argv[1].split('.')[:-1])
 extension = '.' + sys.argv[1].split('.')[-1]
-key = sys.argv[2]
+key = open(sys.argv[2]).read().strip()
 seed = int(hashlib.sha512(key).hexdigest(), 16)
 
 random.seed(seed)
